@@ -7,7 +7,6 @@ namespace MailChimp.Net.Core
     /// <summary>
     /// Sort order for sort_dir
     /// </summary>
-    [Flags]
     public enum CampaignSortOrder
     {
         /// <summary>
@@ -19,7 +18,6 @@ namespace MailChimp.Net.Core
         /// ASC
         /// </summary>
         [Description("DESC")]
-        DESC = 1
+        DESC = 2
     }
-
 }
