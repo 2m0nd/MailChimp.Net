@@ -22,6 +22,7 @@ namespace MailChimp.Net.Interfaces
         Task<SentToResponse> GetSentToRecipientsResponseAsync(string campaignId, QueryableBaseRequest request = null);
         Task<IEnumerable<Report>> GetAllReportsAsync(ReportRequest request = null);
         Task<IEnumerable<Advice>> GetCampaignAdviceAsync(string campaignId, BaseRequest request = null);
+        Task<OpenReportResponse> GetOpenReportAsync(string campaignId, QueryableBaseRequest request = null);
         Task<IEnumerable<UrlClicked>> GetClickReportAsync(string campaignId, QueryableBaseRequest request = null);
         Task<UrlClicked> GetClickReportDetailsAsync(string campaignId, string linkId, BaseRequest request = null);
         Task<ClickMember> GetClickReportMemberAsync(string campaignId, string linkId, string emailAddressOrHash, BaseRequest request = null);
