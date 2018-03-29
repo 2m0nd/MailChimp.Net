@@ -31,7 +31,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyOriginatorKeyFile>MailChimp.Key.snk</AssemblyOriginatorKeyFile>
     <PackageId>MailChimp.Net.V3</PackageId>
-    <Version>3.2.4</Version>
+    <Version>3.3.2</Version>
     <Authors>Brandon Seydel</Authors>
     <Company>DevSquad</Company>
     <Product>MailChimp.Net.V3</Product>
@@ -47,8 +47,8 @@
     <PackageIconUrl>http://developer.mailchimp.com/documentation/mailchimp/img/freddie_o.svg</PackageIconUrl>
     <PackageTags>MailChimp Mail Chimp api v3</PackageTags>
     <PackageLicenseUrl>https://github.com/brandonseydel/MailChimp.Net/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <AssemblyVersion>3.2.1.0</AssemblyVersion>
-    <FileVersion>3.2.1.0</FileVersion>
+    <AssemblyVersion>3.3.2.0</AssemblyVersion>
+    <FileVersion>3.3.2.0</FileVersion>
 
   </PropertyGroup>
   <ItemGroup>
